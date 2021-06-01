@@ -32,11 +32,12 @@ html,body{
 
 }
 .jumbotron-service {
-    background: url("Services/jservice.jpg"); 
+    background: url("Services/jumboservices.jpg"); 
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
-    height: 400px; 
+    height: 600px; 
+
 }
 
 .jumbo-title {
@@ -50,25 +51,6 @@ html,body{
 }
 
 
-.bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 20%;
-    padding: 20px;
-    text-align: center;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
 
   .service {
       background-color:#4D818C;
@@ -338,6 +320,15 @@ h4 {
 
 }
 
+.jumbotron-service {
+    background: url("Services/minijumboservies.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+    
+}
+
     .container text-center{
         min-width: 80%; 
         max-width: 100%; 
@@ -381,6 +372,16 @@ h4 {
             height: 400px; 
         
         }
+    
+    .jumbotron-service {
+            background: url("Services/minijumboservies.jpg"); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            height: 400px; 
+            
+        }
+
     .container text-center{
         min-width: 80%; 
         max-width: 100%; 
@@ -410,6 +411,15 @@ h4 {
     height: 400px; 
 
 }
+
+.jumbotron-service {
+    background: url("Services/minijumboservies.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+    
+}
     
     .service {
         margin-top: -9%;
@@ -429,7 +439,7 @@ h4 {
     }
 
     .background, p {
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 30px;
