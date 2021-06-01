@@ -316,42 +316,71 @@ h4 {
         background-color: #D4E0E3; 
     }
 
+/*ADAPT TO SMALLER SCREENS*/
 
-    /* #### Mobile Phones Portrait #### */
+/* #### Mobile Phones Portrait #### */
 @media screen and (max-width: 480px) and (orientation: portrait){
-    
-    .jumbotron {
-        min-width: 80%; 
-        max-width: 100%; 
-        }
-        
+     
+.jumbotron{
+    background: url("Home/smallhome.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+}
+
+.jumbotron-about {
+    background: url(About/miniWhoiam.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+
+}
+
     .container text-center{
         min-width: 80%; 
         max-width: 100%; 
         }
 
-        .service {
+    .service {
             margin-top: -9%;
         }
      
-     .reasons, h3 {
-        font-size: 20px; 
+    .reasons h3 {
+        font-size: 30px; 
      }
 
-     .reasons, .bulb {
-        width: 50%; 
-        height:50%; 
+    .reasons .bulb {
+       display: none;
+     }
+
+     .service .btn {
+         margin-bottom: 40px;
+
      }
              
     }
+
     /* #### Mobile Phones Landscape #### */
     @media screen and (max-width: 640px) and (orientation: landscape){
-        
-    .jumbotron {
-        min-width: 80%; 
-        max-width: 100%; 
+    
+.jumbotron{
+        background: url("Home/jumboextrasmall.jpg"); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover; 
         }
         
+
+.jumbotron-about {
+            background: url(About/miniWhoiam.jpg); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            height: 400px; 
+        
+        }
     .container text-center{
         min-width: 80%; 
         max-width: 100%; 
@@ -362,17 +391,51 @@ h4 {
         margin-top: -9%;
     }
     
+     }
     /* #### Mobile Phones Portrait or Landscape #### */
-    @media screen and (max-width: 640px){
+    @media screen and (max-width: 780px){
         
-    .jumbotron {
-        min-width: 80%; 
-        max-width: 100%; 
+        .jumbotron{
+            background: url("Home/jumboextrasmall.jpg"); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
         }
+
+.jumbotron-about {
+    background: url(About/miniWhoiam.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+
+}
     
     .service {
         margin-top: -9%;
        }  
+   
+    .reasons h3 {
+        font-size: 30px; 
+     }
+
+    .reasons .bulb {
+       display: none;
+     }
+
+     .service .btn {
+        margin-bottom: 40px;
+
+    }
+
+    .background, p {
+        font-size: 14px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+        justify-content: center;
+        padding-left: 30px;
+    }
     }
     
     /* #### iPhone 4+ Portrait or Landscape #### */
@@ -392,11 +455,55 @@ h4 {
     /* #### Tablets Portrait or Landscape #### */
     @media screen and (min-width: 768px) and (max-width: 1024px){
         
-    .jumbotron {
-        min-width: 80%; 
-        max-width: 100%; 
+        .jumbotron{
+            background: url("Home/smallhome.jpg"); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            height: 500px; 
         }
+
+        .reasons h3 {
+            font-size: 30px; 
+         }
+    
+        .reasons .bulb {
+           display: none;
+         }
+
+         .reasons {
+             margin-bottom: 5%;
+         }
+       
     }
+
+    /*### iPad Pro ### */
+    @media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+
+        .jumbotron{
+            background: url("JShome3.jpg"); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            height: 500px; 
+        }
+
+        .reasons h3 {
+            font-size: 30px; 
+         }
+    
+        .reasons .bulb {
+           display: none;
+         }
+
+         .reasons {
+             margin-bottom: 5%;
+         }
+
+
+    }
+
     
     /* #### Desktops #### */
     @media screen and (min-width: 1024px){
