@@ -162,6 +162,7 @@ footer {
 
 .reasons {
     padding-top: 30px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
@@ -424,6 +425,7 @@ h4 {
     .service {
         margin-top: -9%;
        }  
+   
    
     .reasons h3 {
         font-size: 30px; 
