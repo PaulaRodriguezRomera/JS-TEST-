@@ -351,6 +351,10 @@ h4 {
          margin-bottom: 40px;
 
      }
+
+     .reasons {
+         padding-bottom: 20px;
+     }
              
     }
 
@@ -392,6 +396,10 @@ h4 {
     .service {
         margin-top: -9%;
     }
+
+    .reasons {
+        padding-bottom: 20px;
+    }
     
      }
     /* #### Mobile Phones Portrait or Landscape #### */
@@ -425,6 +433,10 @@ h4 {
     .service {
         margin-top: -9%;
        }  
+
+       .reasons {
+        padding-bottom: 20px;
+    }
    
    
     .reasons h3 {
@@ -461,6 +473,10 @@ h4 {
     .service {
          margin-top: -9%;
         }
+
+        .reasons {
+            padding-bottom: 20px;
+        }
     
     }
     
@@ -484,8 +500,8 @@ h4 {
          }
 
          .reasons {
-             margin-bottom: 5%;
-         }
+            padding-bottom: 20px;
+        }
        
     }
 
@@ -510,8 +526,8 @@ h4 {
          }
 
          .reasons {
-             margin-bottom: 5%;
-         }
+            padding-bottom: 20px;
+        }
 
 
     }
