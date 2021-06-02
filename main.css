@@ -40,16 +40,14 @@ html,body{
 
 }
 
-.jumbo-title {
-    font-size: 14px;
-    text-align: center;
-    color: white;
-    margin-top: 25%;
-    background-color:  rgba(77,129,140, 0.5); 
-    font-weight: bold;
-    padding-bottom: -5px;
-}
 
+.contactus {
+    background: url("Contact/jumbocontact.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 600px;
+}
 
 
   .service {
@@ -296,7 +294,7 @@ h4 {
 
     .contact {
         padding-top: 30px;
-        background-color: #D4E0E3; 
+        background-color: #4D818C;
     }
 
 /*ADAPT TO SMALLER SCREENS*/
@@ -328,6 +326,14 @@ h4 {
     background-size: cover; 
     height: 400px; 
     
+}
+
+.contactus {
+    background: url("Contact/minicontactus.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px;
 }
 
     .container text-center{
@@ -387,6 +393,8 @@ h4 {
             
         }
 
+   
+
     .container text-center{
         min-width: 80%; 
         max-width: 100%; 
@@ -428,6 +436,14 @@ h4 {
     background-size: cover; 
     height: 400px; 
     
+}
+
+.contactus {
+    background: url("Contact/minicontactus.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: 400px;
 }
     
     .service {
