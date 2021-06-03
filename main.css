@@ -266,8 +266,6 @@ h4 {
     margin-bottom: 4%;
 }
 
-
-
 .financial {
     background-color: #8BADB4;
     padding-top: 30px; 
@@ -275,14 +273,13 @@ h4 {
     margin-bottom: 0%;
 }
 
-
 .taxation {
     padding-top: 20px; 
     padding-bottom: 40px;
 }
 
 .taxone {
-    padding-top: 120px;
+    padding-top: 40px;
 }
 
 .form {
@@ -378,7 +375,7 @@ h4 {
      .reasons {
          padding-bottom: 20px;
      }
-             
+        
     }
 
     /* #### Mobile Phones Landscape #### */
