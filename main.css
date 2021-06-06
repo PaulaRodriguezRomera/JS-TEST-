@@ -1,10 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css?family=gothic light');
+
+
 html,body{
     overflow-x: hidden;
 }
-
-@import url('https://fonts.googleapis.com/css?family=gothic light');
-
 
 .navbar a {
     float: left;
